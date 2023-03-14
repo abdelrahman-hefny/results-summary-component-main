@@ -1,0 +1,130 @@
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  font-family: "HankenG", sans-serif;
+}
+@font-face {
+  font-family: "HankenG";
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "HankenL";
+  src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+.result,
+.num,
+body {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.body {
+  padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  margin: 20px;
+  width: 415px;
+  max-width: 415px;
+  margin: auto;
+}
+.result {
+  background: linear-gradient(to bottom, #6743ff, #322deb);
+  width: 353px;
+  margin: auto;
+  padding: 30px 40px;
+  border-radius: 1.2em;
+  color: #fff;
+}
+p,
+.result h3,
+.continue {
+  color: #c9c2ff;
+}
+.num {
+  background: linear-gradient(to bottom, #4a23cc, #4633ed);
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin: 30px auto;
+}
+.num h2 {
+  font-size: 60px;
+}
+.result h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.result h3 {
+  font-size: 23px;
+}
+.sammary {
+  padding: 30px 20px;
+  width: 353px;
+  margin: auto;
+  margin-top: -20px;
+ 
+}
+.sammary > div > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+.sammary > div > div > div {
+  display: flex;
+  align-items: center;
+}
+.sammary > div > div:first-child,
+.sammary > div > div:nth-child(2),
+.sammary > div > div:nth-child(3),
+.sammary > div > div:nth-child(4) {
+  border-radius: 10px;
+  margin: 27px 0;
+  padding: 0 10px;
+}
+.sammary > div > div:first-child {
+  background-color: #fff4f5;
+}
+.sammary > div > div:nth-child(2) {
+  background-color: #fefaef;
+}
+.sammary > div > div:nth-child(3) {
+  background-color: #f2fbfa;
+}
+.sammary > div > div:nth-child(4) {
+  background-color: #f3f3fd;
+}
+
+.sammary img {
+  margin: 10px;
+}
+.sammary > div span {
+  font-weight: bold;
+  padding-right: 7px;
+}
+.sammary h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+  font-family: "HankenL", sans-serif;
+}
+.continue {
+  background-color: #303b59;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 7px 15px;
+}
+@media (min-width:750px) {
+    .body{
+        display: flex;
+        flex-direction: row;
+        width: 830px;
+        max-width: 830px;
+    }
+}
